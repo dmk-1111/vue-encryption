@@ -147,7 +147,7 @@ const handleConvert = async () => {
   if (activeTab.value === 'encrypt') {
     // const encrypted = encryptData(inputText.value, effectiveKey);
 
-      const response = await fetch("http://localhost:8080/api/v1/main/encrypt_", {
+      const response = await fetch("http://localhost:8080/api/v1/main/encrypt", {
           method: "POST",
           headers: {
               "Content-Type": "application/json"
@@ -164,7 +164,7 @@ const handleConvert = async () => {
     
   } else {
     // const result = decryptData(inputText.value, effectiveKey);
-      const response = await fetch("http://localhost:8080/api/v1/main/decrypt_", {
+      const response = await fetch("http://localhost:8080/api/v1/main/decrypt", {
           method: "POST",
           headers: {
               "Content-Type": "application/json"
