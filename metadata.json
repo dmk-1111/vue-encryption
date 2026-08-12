@@ -1,0 +1,6 @@
+{
+  "name": "Text Encryptor & Decryptor",
+  "description": "A responsive Vue application for text encryption and decryption with customizable keys, copy tools, and toast notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
