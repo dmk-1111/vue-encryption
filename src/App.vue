@@ -284,11 +284,6 @@ const resultStats = computed(() => ({
           <Moon v-else class="w-3.5 h-3.5 text-indigo-600" />
           <span>{{ isDarkMode ? 'LIGHT MODE' : 'DARK MODE' }}</span>
         </button>
-
-        <div :class="['flex gap-2 items-center px-3 py-1.5 rounded-full border transition-colors', isDarkMode ? 'bg-slate-900 border-slate-800/80' : 'bg-white border-slate-200']">
-          <div class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
-          <span :class="['text-[10px] uppercase font-bold tracking-wider font-mono', isDarkMode ? 'text-slate-400' : 'text-slate-500']">System Armed</span>
-        </div>
       </div>
     </header>
 
